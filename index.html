@@ -420,6 +420,13 @@
                 flex-direction: column;
             }
         }
+        /* تنسيق خاص بالموبايل فقط */
+@media (max-width: 768px) {
+    .hero {
+        background-size: 100% 80vh !important; /* بيظبط طول وعرض الصورة لتناسب شاشة الموبايل الطولية */
+        background-position: center center;
+    }
+}
     </style>
 </head>
 <body>
